@@ -338,7 +338,7 @@ def _method_B_(uid,user):
             elif "Please Confirm Email" in str(mtd_B):
                 oks.append(uid)
                 print(f"\r\r{red}[{green1}SUCCESS{red}] {green}{uid} {red}»{green} {pw}")
-                open("/sdcard/MR-RIFAT-OLD-M2-OKK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/MR-RIAT-OLD-M2-OKK.txt","a").write(uid+"|"+pw+"\n")
                 break
             else:continue
         loop+=1
